@@ -2,6 +2,8 @@
 
 ### ✔ Desafio HTML e CSS
 
+ [Blog](https://joaovittorl.github.io/blog-codelandia/) <-
+
 <p>-> HTML semântico</p>
 
 <p>-> SASS</p>
