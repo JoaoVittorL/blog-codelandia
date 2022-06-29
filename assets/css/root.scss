@@ -1,0 +1,30 @@
+ $white :hsl(0, 0%, 100%) ;
+ $white-200 :hsl(210, 20%, 96%) ;
+ 
+ $gray : hsl(0, 0%, 44%)     ;
+ $gray-dark :hsl(220, 26%, 14%) ;
+
+ $purple:hsl(245, 77%, 60%) ;
+ $light:hsl(202, 69%, 55%);
+
+ $lexend-deca:'Lexend Deca', sans-serif;
+ $inter:'Inter', sans-serif;
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+    background-color: $white-200
+  }
+  .section-control{
+    max-width: 900px;
+    margin-inline: auto;
+  }
+  @import "geral";
+  

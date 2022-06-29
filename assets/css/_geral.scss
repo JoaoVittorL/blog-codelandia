@@ -1,0 +1,97 @@
+.container {
+  max-width: 100vw;
+  .section-principal {
+    padding-block: 4.1rem;
+    background-image: linear-gradient($purple, $light);
+    .section-control {
+      .title-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title,
+        .logo {
+          color: $white;
+          font-family: $lexend-deca;
+          font-size: 2.4rem;
+          font-weight: 400;
+          line-height: 3rem;
+        }
+      }
+      .search-box {
+        background: rgba(255, 255, 255, 0.2);
+        margin-top: 7.5rem;
+        max-width: 100%;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        .search-btn {
+          padding: 1.8rem 1.7rem;
+        }
+        .search-text {
+          background: none;
+          color: $white;
+          border: none;
+          width: 90%;
+          outline: none;
+          font-size: 1.8rem;
+          line-height: 2.1rem;
+          font-weight: 500;
+          font-family: $inter;
+        }
+        input::placeholder {
+          color: $white;
+        }
+      }
+    }
+  }
+  .section-secundary {
+    margin-block: 100px;
+    .section-control {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+      .box-message {
+        font-family: $lexend-deca;
+        background-color: $white;
+        border-radius: 0.5rem;
+        padding-block: 2.5rem;
+        width: 100%;
+        padding: 2.5rem;
+        height: auto;
+        .box-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 2.2rem;
+          span {
+            color: $gray;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            font-weight: 400;
+          }
+        }
+        h4 {
+          margin-bottom: 0.8rem;
+          font-size: 2.6rem;
+          line-height: 3.2rem;
+          font-weight: 400;
+          text-align: left;
+        }
+        p {
+          color: $gray;
+          font-size: 1.8rem;
+          font-weight: 400;
+          line-height: 3.2rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 950px){
+  .container{
+      .section-control{
+          padding-inline: 2rem;
+      }
+     
+  }
+}
